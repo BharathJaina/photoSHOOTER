@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="wrap">
+
+			<div class="navbar navbar-fixed-top">
+				
+				<div class="container">
+					<button class="navbar-toggle" data-target="#my-navCollapse" data-toggle="collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand">
+						<img id="logo" src="Images/logo.png" alt="photoSHOOTER">
+					</a>
+
+					<div class="nav-collapse collapse" id="my-navCollapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a>	</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Images <strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Wild Life Photography</a></li>
+									<li><a href="#">Bird Photography</a></li>
+									<li><a href="#">Fashion Photography</a></li>
+									<li><a href="#">Art Photography</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Others</li>
+									<li><a href="/Images.html">Trending</a></li>
+									<li><a href="#">Top Sales</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="searchform">
+								<form action="" class="navbar-form">
+									<input type="text" class="form-control" placeholder="Search the Images" id="search-bar">
+									<button class="btn btn-default" type="submit">
+										<span class="glyphicon glyphicon-search"></span>
+									</button>
+								</form>
+
+							</li>
+							<li><a href="#login" data-toggle="modal">Login</a></li>
+							<li class="active"><a href="#">Sign-UP</a></li>
+						</ul>
+
+					</div>	<!--collapse content-->				
+				</div><!--Container inside NavBar-->
+			</div><!--end of Navigation bar-->
+
+			<div id="myCarousels">
+				<div class="row">
+					<h3>WildLife Photography</h3>
+				</div>
+				<div class="row">
+					<div class="carousel slide" id="wildlife">
+						<div class="carousel-inner">
+							<div class="item active"><img src="images/elephant.jpg" alt=""></div>
+							<div class="item"><img src="images/zebra.jpg" alt=""></div>
+							<div class="item"><img src="images/lion.jpg" alt=""></div>
+							<div class="item"><img src="images/hippo.jpg" alt=""></div>
+							<div class="item"><img src="images/giraffe.jpg" alt=""></div>
+						</div><!--end of carousel-inner-->
+
+						<!-- Controls -->
+						<a class="left carousel-control" data-slide="prev" href="#wildlife"><span class="icon-prev"></span></a>
+						
+						<a class="right carousel-control" data-slide="next" href="#wildlife"><span class="icon-next"></span></a>
+
+					</div><!--end of carousel-->
+				</div>
+
+
+				<div class="row">
+					<h3>Birds Photography</h3>
+				</div>
+				<div class="row">
+					<div class="carousel slide" id="birds">
+						<div class="carousel-inner">
+							<div class="item active"><img src="images/birds1.jpg" alt=""></div>
+							<div class="item"><img src="images/birds2.jpg" alt=""></div>
+							<div class="item"><img src="images/birds3.jpg" alt=""></div>
+							<div class="item"><img src="images/birds4.jpg" alt=""></div>
+						</div><!--end of carousel-inner-->
+
+						<!-- Controls -->
+						<a class="left carousel-control" data-slide="prev" href="#birds"><span class="icon-prev"></span></a>
+						
+						<a class="right carousel-control" data-slide="next" href="#birds"><span class="icon-next"></span></a>
+
+					</div><!--end of carousel-->
+				</div>
+				
+				<div class="row">
+					<h3>Other Photographies</h3>
+				</div>
+				<div class="row" id="miscellaneous">
+					<div class="col-sm-4"><img src="images/misc1.jpg" alt="not found"></div>
+					<div class="col-sm-4" ><img src="images/misc2.jpg" alt="not found"></div>
+					<div class="col-sm-4"><img src="images/misc3.jpg" alt="not found"></div>
+				</div>
+
+			</div>
+
+		</div><!--end of the Wrapper div--> 
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">Copyrights &copy; 2015 by photoShooter Inc.All rights reserved. <br>
+						<a href="#">Terms of use</a>/<a href="#">privacy policy</a>
+					</div>
+					<div class="col-sm-6">
+						Follow us:<br>
+						<ul class="follow">
+							<li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
+							<li><a href="#"><img src="images/twitter.png" alt="Twitter"></a></li>
+							<li><a href="#"><img src="images/instagram.png" alt="Instagram"></a></li>
+							<li><a href="#"><img src="images/youtube.gif" alt="Youtube"></a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</footer>
+		<div class="modal fade" id="login">
+							
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Login Page</h3>
+					</div>
+					<div class="modal-body">
+						
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-sm-5 control-label" for="username">Username</label>
+								<div class="col-sm-7">
+									<input class="form-control" id="username" placeholder="User name" type="text">
+								</div>
+							</div>
+													
+							<div class="form-group">
+								<label class="col-sm-5 control-label" for="password">Password</label>
+								<div class="col-sm-7">
+									<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<div class="col-sm-4 pull-right">
+									<button class="btn btn-default btn-block pull-right login" type="Submit">Login </button>
+								</div>
+							</div>
+
+						</form>
+						
+					</div><!--end of modal body-->
+				</div><!--end of content-->
+			</div><!--end of dialog-->
+		</div><!--end of #login page-->
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<!--script src="http://code.jquery.com/jquery.js"></script-->
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script type="text/javascript">
+	function init() {
+		if($(window).width() > (751) ) {
+
+			$('.carousel .item').each(function(){
+  				if(this.children.length < 3) {
+  				var next = $(this).next();	
+  				if (!next.length) {
+   					 next = $(this).siblings(':first');
+  				}
+
+  				next.children(':first-child').clone().appendTo($(this));
+				for (var i=0;i<1;i++) {
+		    		next=next.next();
+		    		if (!next.length) {
+		    				next = $(this).siblings(':first');
+		  			}
+		    
+		    		next.children(':first-child').clone().appendTo($(this));
+	  			}	
+			}});
+		}
+		else {
+			$('.carousel .item').each(function(){
+				if(this.children.length >1) {
+					for(j=2;j>0;j--) {
+						this.children[j].remove();
+					}
+				}
+			})
+		}
+	}
+	$(window).resize(init);
+	$(document).ready(init);
+
+
+	</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+

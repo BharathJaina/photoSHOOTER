@@ -1,0 +1,214 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+  body{
+   background-color: #aeaeae;
+  /* overflow:hidden;*/
+ }  
+.row{
+   margin-right: 0px;
+   margin-left: 0px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #logo{
+      width: 170px;
+      height: 20px;
+   }
+   
+   #search-bar{
+      width: 180px;
+   }
+   #hero-tag{
+      padding-top: 70px;
+      text-align: center;
+      font-size: 50px;
+      font-style: italic;
+      color: #ffffff;
+      display:block;
+   }
+   .features{
+      text-align: center;
+   }
+   .features p{
+      text-align: justify;
+   }
+   .features img{
+      margin-bottom: 10px;
+   }
+   .panel{
+      background-color: #aeaeae;
+   }
+   .store-stats{
+      margin:15px;
+      text-align: center;
+   }
+   .store-stats img{
+      width:100%;
+      max-width:300px;
+      height: 100%;
+      max-height: 300px;
+   }
+   .store-stats p{
+      text-align: justify;
+   }
+   #hero{
+      margin-top: 52px;
+      padding-bottom: 32%;
+      min-height: 300px;
+      background-image: url("../../images/Workflow.jpg");
+      background-size: 100% 100%;
+      -moz-background-size:cover;
+      background-position: center;
+   }
+      
+
+   .login{
+      width:150px;
+   }
+
+
+
+   footer{
+      text-align: center;
+      background-color: #808080;
+      color: #fff;
+   }
+
+   footer .col-sm-6{
+         padding-top: 20px;
+   }
+
+
+
+   .follow{
+      padding: 0px;
+   }
+   .follow li{
+      display:inline;
+   }
+   
+   .follow img{
+      width: 27px;
+      height:27px;
+      margin: 5px;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+ #myCarousels{
+   margin-top: 51px;
+ }
+
+#myCarousels h3{
+   margin-left: 50px;
+   font-style: italic;
+}
+
+#myCarousels img{
+   width: 32.33333%;
+   padding-left: 1%;
+   padding-right: 1%;
+   height: 200px;
+}
+
+#myCarousels .carousel-inner{
+   padding-left: 14%;
+   padding-right: 14%;
+}
+
+
+#miscellaneous{
+   margin: 0px 10px 10px;
+   /*display: inline-flex;*/
+} 
+.miscellaneous div{
+   margin: 8%;
+}
+#miscellaneous img{
+   width: 100%;
+   height: 100%;
+   padding: 0% 10%;
+   margin: 15px auto;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+@media (max-width: 767px) {
+   .carousel-inner .active.left { left: -100%; }
+   .carousel-inner .next        { left:  100%; }
+   .carousel-inner .prev       { left: -100%; }
+   .active > div { display:none; }
+   .active > div:first-child { display:block; }
+   #miscellaneous img{
+      margin: 15px 15px;
+   }
+
+}
+/*@media (min-width: 767px) and (max-width: 992px ) {
+   .carousel-inner .active.left { left: -50%; }
+   .carousel-inner .next        { left:  50%; }
+   .carousel-inner .prev       { left: -50%; }
+   .active > div { display:none; }
+   .active > div:first-child { display:block; }
+   .active > div:first-child + div { display:block; }
+}*/
+@media (min-width: 767px ) {
+   .carousel-inner .active.left { left: -33.33%; }
+   .carousel-inner .next        { left:  33.33%; }
+   .carousel-inner .prev       { left: -33.33%; }  
+}
+
+/* Portrait & landscape phone */
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#hero-tag{
+      font-size: 40px;
+   }
+
+   #myCarousels img{
+   width: 100%;
+   height: 80%; 
+   
+}
+
+#myCarousels .carousel-inner{
+   padding-left: 10%;
+   padding-right: 10%;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+   
+
+
+}
+@media (max-width: 480px) {
+   #hero-tag{
+      font-size: 32px;
+   }
+   
+}
